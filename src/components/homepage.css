@@ -1,0 +1,34 @@
+.cart-amount {
+  top: -20%;
+  right: -20%;
+  background: white;
+  color: blue;
+  padding: 5px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.cart-container {
+  padding: 1%;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.cart-item {
+  box-shadow: 0px 0px 3px 2px gray;
+  border-radius: 2px;
+  background-color: rgba(128, 128, 128, 0.13);
+}
+
+.image-container {
+  width: 12%;
+  height: 70px;
+  overflow: hidden;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 100% 70%;
+}
